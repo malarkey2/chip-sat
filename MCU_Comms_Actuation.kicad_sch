@@ -4988,6 +4988,14 @@
 		(color 0 0 0 0)
 		(uuid "f88bda8c-93d1-40b0-9065-841ebec0f4ba")
 	)
+	(no_connect
+		(at 265.43 134.62)
+		(uuid "09c212e5-4127-4201-821b-730fa25759ee")
+	)
+	(no_connect
+		(at 265.43 132.08)
+		(uuid "0bb2ef6d-4925-4d0d-abe9-4c9ae0ed57af")
+	)
 	(wire
 		(pts
 			(xy 146.05 162.56) (xy 147.32 162.56)
@@ -9965,85 +9973,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 265.43 134.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50aabc77-37e8-4566-84ec-9ee3f2e4dee0")
-		(property "Reference" "#PWR048"
-			(at 271.78 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 134.6199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94d904be-a041-41ae-8656-978f283e2a9d")
-		)
-		(instances
-			(project "MCU_Comms_Actuation"
-				(path "/951c21f5-e3a2-4971-b4ad-b39d9271a0ce"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 207.01 106.68 0)
 		(unit 1)
@@ -10593,85 +10522,6 @@
 			(project "DukeSatChip"
 				(path "/c9dca0a0-0655-45b8-af3d-da736a85b271/0dc59f70-6e74-4892-a502-b747b26099d8"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 265.43 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61505506-f705-4306-8652-4538da1ad638")
-		(property "Reference" "#PWR047"
-			(at 271.78 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 132.0799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f192032-2a0e-4677-b7c0-fb7226b51fcc")
-		)
-		(instances
-			(project "MCU_Comms_Actuation"
-				(path "/951c21f5-e3a2-4971-b4ad-b39d9271a0ce"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
