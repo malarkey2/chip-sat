@@ -5068,6 +5068,12 @@
 		(uuid "bb787db4-09c0-41fc-975a-c2dcfd75cd7d")
 	)
 	(junction
+		(at 107.95 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c21cf8e3-2559-4207-9f9c-26f340714ab3")
+	)
+	(junction
 		(at 44.45 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5274,6 +5280,16 @@
 			(type default)
 		)
 		(uuid "185aa75d-da49-407a-9c5e-df4e50a45a30")
+	)
+	(wire
+		(pts
+			(xy 49.53 95.25) (xy 49.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cee354f-aac4-4499-a380-a6b937a308ae")
 	)
 	(wire
 		(pts
@@ -5517,13 +5533,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 66.04) (xy 110.49 66.04)
+			(xy 104.14 66.04) (xy 107.95 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4c55023a-4394-4a52-938b-ac304718507a")
+	)
+	(wire
+		(pts
+			(xy 49.53 91.44) (xy 49.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532c00ed-2819-4849-8d60-f142fa5ba37f")
 	)
 	(wire
 		(pts
@@ -5807,6 +5833,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 71.12) (xy 115.57 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1774ca-bc78-4c55-86ee-944a4adc6b26")
+	)
+	(wire
+		(pts
 			(xy 104.14 114.3) (xy 109.22 114.3)
 		)
 		(stroke
@@ -5814,6 +5850,16 @@
 			(type default)
 		)
 		(uuid "7b2cde35-06be-4502-8869-5e1538974af3")
+	)
+	(wire
+		(pts
+			(xy 49.53 91.44) (xy 63.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c6cffcd-71fd-4459-baad-f0f2b619adf7")
 	)
 	(wire
 		(pts
@@ -5894,16 +5940,6 @@
 			(type default)
 		)
 		(uuid "87c0bc1c-32a3-444e-86f3-ab772cb79df8")
-	)
-	(wire
-		(pts
-			(xy 52.07 91.44) (xy 63.5 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ac09c23-5946-4ec7-8c38-fd8f4b216d7a")
 	)
 	(wire
 		(pts
@@ -6037,6 +6073,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 66.04) (xy 107.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0aa628e-16cc-4b30-89c8-56b795540096")
+	)
+	(wire
+		(pts
 			(xy 43.18 165.1) (xy 48.26 165.1)
 		)
 		(stroke
@@ -6074,6 +6120,16 @@
 			(type default)
 		)
 		(uuid "a4aff89f-eeb3-435c-8654-24854fdb1842")
+	)
+	(wire
+		(pts
+			(xy 49.53 92.71) (xy 52.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ee8b31-0aa0-49c4-ba22-280bb77820d5")
 	)
 	(wire
 		(pts
@@ -6164,6 +6220,16 @@
 			(type default)
 		)
 		(uuid "b1c6a642-3129-47af-9b56-cb73e40ffb2b")
+	)
+	(wire
+		(pts
+			(xy 49.53 93.98) (xy 63.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a8900f-4402-42b7-80e0-b9963cf33809")
 	)
 	(wire
 		(pts
@@ -6297,13 +6363,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 93.98) (xy 63.5 93.98)
+			(xy 107.95 66.04) (xy 110.49 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d528b8b3-834c-4565-9b3e-4c04769cab72")
+		(uuid "d6924356-8072-46b1-bde9-fbe8a1edfe69")
 	)
 	(wire
 		(pts
@@ -6504,6 +6570,16 @@
 			(type default)
 		)
 		(uuid "f4ff3301-a7a5-4c93-a47d-0f8def53658f")
+	)
+	(wire
+		(pts
+			(xy 52.07 95.25) (xy 49.53 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f804be1b-d6e0-4f9e-b516-0bfbc3e7b6bd")
 	)
 	(wire
 		(pts
@@ -6775,16 +6851,6 @@
 		)
 		(uuid "4dbbd742-4390-4c17-8a55-04890e55afdb")
 	)
-	(label "SPI_MISO"
-		(at 52.07 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4edcae40-b4a3-4736-b927-c6fa6041d56f")
-	)
 	(label "nFAULT"
 		(at 109.22 104.14 0)
 		(effects
@@ -7034,16 +7100,6 @@
 			(justify left bottom)
 		)
 		(uuid "a841af60-2329-4983-8acf-9f2f2044b483")
-	)
-	(label "SPI_MOSI"
-		(at 52.07 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9e329d1-806c-4465-a4e9-dadf78a56abf")
 	)
 	(label "3V3"
 		(at 48.26 165.1 0)
@@ -7344,6 +7400,39 @@
 			(justify left bottom)
 		)
 		(uuid "ff82ea8b-1bb0-4ba6-8416-dfa2d5d45a6d")
+	)
+	(hierarchical_label "SPI_CLK"
+		(shape output)
+		(at 115.57 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f13cf67-6ad2-46c2-a80e-81c43f68f7bc")
+	)
+	(hierarchical_label "SPI_MISO"
+		(shape input)
+		(at 52.07 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f273c0c-a98f-4371-ade0-52f7569767b8")
+	)
+	(hierarchical_label "SPI_MOSI"
+		(shape output)
+		(at 52.07 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df226f6f-814d-4b4f-975b-c125a7320641")
 	)
 	(symbol
 		(lib_id "Device:R")
