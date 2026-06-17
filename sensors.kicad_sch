@@ -2147,7 +2147,7 @@
 		)
 		(uuid "edb5c1af-d973-41ef-9f21-6bad4f79d415")
 	)
-	(label "I2C1_SDA"
+	(label "I2C_SDA"
 		(at 207.01 43.18 180)
 		(effects
 			(font
@@ -2156,16 +2156,6 @@
 			(justify right bottom)
 		)
 		(uuid "09505d6f-3297-4cd3-96ff-81513b47a253")
-	)
-	(label "I2C1_SDA"
-		(at 200.66 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "378153bd-de86-46a9-8f4b-e42d6fc86ceb")
 	)
 	(label "is disabled."
 		(at 157.48 39.37 0)
@@ -2187,7 +2177,7 @@
 		)
 		(uuid "4a16ccf3-c399-4b5e-951c-dbc984fe72ee")
 	)
-	(label "I2C1_SCL"
+	(label "I2C_SCL"
 		(at 86.36 102.87 180)
 		(effects
 			(font
@@ -2197,7 +2187,7 @@
 		)
 		(uuid "4b9497a0-2ed1-47b7-99c0-4f3530ec7477")
 	)
-	(label "I2C1_SCL"
+	(label "I2C_SCL"
 		(at 207.01 53.34 180)
 		(effects
 			(font
@@ -2206,16 +2196,6 @@
 			(justify right bottom)
 		)
 		(uuid "5992a25e-0e4f-4f43-bcb2-0558d3873098")
-	)
-	(label "I2C1_SCL"
-		(at 200.66 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8d0cba57-3fe9-4c92-8ca2-c0ef36d180c4")
 	)
 	(label "but GPS functionality on the ChipSat"
 		(at 120.65 39.37 0)
@@ -2227,7 +2207,7 @@
 		)
 		(uuid "b19258d0-fdb7-4ef4-8202-d89869f425b0")
 	)
-	(label "I2C1_SDA"
+	(label "I2C_SDA"
 		(at 86.36 97.79 180)
 		(effects
 			(font
@@ -2247,6 +2227,17 @@
 		)
 		(uuid "bb9cd3ce-ecb8-4ef5-b156-c5524fac5942")
 	)
+	(hierarchical_label "I2C_SCL"
+		(shape bidirectional)
+		(at 200.66 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "160c9051-247c-4c95-9bde-02988e12d47b")
+	)
 	(hierarchical_label "SPI_CLK"
 		(shape input)
 		(at 39.37 85.09 0)
@@ -2257,6 +2248,17 @@
 			(justify left)
 		)
 		(uuid "536c8bdd-cb1f-4968-9d84-226dfb0975ac")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape bidirectional)
+		(at 200.66 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74c8d17d-7773-471f-a207-30ad5ba5d283")
 	)
 	(symbol
 		(lib_id "power:+3V3")

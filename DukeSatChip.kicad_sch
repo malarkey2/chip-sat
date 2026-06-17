@@ -1876,6 +1876,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 73.66) (xy 195.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06508aff-a018-4063-a2a7-78d880b3d9ff")
+	)
+	(wire
+		(pts
 			(xy 67.31 55.88) (xy 67.31 53.34)
 		)
 		(stroke
@@ -1956,6 +1966,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 87.63) (xy 195.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7127200e-3713-4143-a1e6-ca0bbc117d4b")
+	)
+	(wire
+		(pts
 			(xy 69.85 58.42) (xy 67.31 58.42)
 		)
 		(stroke
@@ -1973,6 +1993,16 @@
 			(type default)
 		)
 		(uuid "7684a9ea-1486-43b4-90e6-fe601bafbaa2")
+	)
+	(wire
+		(pts
+			(xy 175.26 91.44) (xy 195.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb81a9b-4ab5-4d70-b92e-5a5822660457")
 	)
 	(wire
 		(pts
@@ -4088,7 +4118,7 @@
 		)
 	)
 	(sheet
-		(at 133.604 34.798)
+		(at 195.58 70.358)
 		(size 34.036 25.654)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4104,7 +4134,7 @@
 		)
 		(uuid "0dc59f70-6e74-4892-a502-b747b26099d8")
 		(property "Sheetname" "MCU_comms_actuation"
-			(at 133.604 34.0864 0)
+			(at 195.58 69.6464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4115,7 +4145,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU_comms_actuation.kicad_sch"
-			(at 133.604 61.0366 0)
+			(at 195.58 96.5966 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4126,13 +4156,53 @@
 			)
 		)
 		(pin "SPI_CLK" output
-			(at 167.64 48.006 0)
+			(at 195.58 73.66 180)
 			(uuid "960a81b6-4a94-483f-b1cf-31d58ec5958c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+		(pin "SPI_MISO" input
+			(at 195.58 78.74 180)
+			(uuid "39e505b0-beb0-4f14-9ed6-539420ca92d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_MOSI" output
+			(at 195.58 81.28 180)
+			(uuid "74e58fd8-418b-44e3-adee-b97958937b78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" bidirectional
+			(at 195.58 87.63 180)
+			(uuid "a3cbe1f2-841b-4f9b-ba9b-bddff1a47143")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 195.58 91.44 180)
+			(uuid "ba2a9010-295b-4fae-9175-d52317a4cc83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -4144,7 +4214,7 @@
 		)
 	)
 	(sheet
-		(at 133.35 72.136)
+		(at 140.716 68.326)
 		(size 34.544 29.464)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4160,7 +4230,7 @@
 		)
 		(uuid "2c660215-bf91-4bc8-ab55-7ad66a48126a")
 		(property "Sheetname" "sensors"
-			(at 133.35 71.4244 0)
+			(at 140.716 67.6144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4171,7 +4241,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 133.35 102.1846 0)
+			(at 140.716 98.3746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4182,13 +4252,33 @@
 			)
 		)
 		(pin "SPI_CLK" input
-			(at 133.35 76.2 180)
+			(at 175.26 73.66 0)
 			(uuid "1b7e11a3-dc25-4a41-9166-c3fdfc25c6dd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(pin "I2C_SCL" bidirectional
+			(at 175.26 87.63 0)
+			(uuid "92ebc642-5661-401e-a52a-7e952dea11c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 175.26 91.44 0)
+			(uuid "e9e5d1ec-1d28-4d1f-bb91-47bccdb7b620")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
