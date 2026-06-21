@@ -6503,10 +6503,22 @@
 		(uuid "3d6a72cd-ab70-45be-83bf-e0de8a30cdd4")
 	)
 	(junction
+		(at 153.67 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42daa765-6283-440b-8334-ac27efbc6690")
+	)
+	(junction
 		(at 35.56 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4441d8fe-48c9-49d8-b10d-1da0612c9a5f")
+	)
+	(junction
+		(at 153.67 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47f8461c-259d-4d52-a125-b1167b2c000c")
 	)
 	(junction
 		(at 266.7 119.38)
@@ -6681,14 +6693,6 @@
 		(uuid "159d0245-7389-4b58-86f4-1925cbb696dd")
 	)
 	(no_connect
-		(at 104.14 58.42)
-		(uuid "2f4da2e3-5d2a-49f4-b093-ef216dc2aeee")
-	)
-	(no_connect
-		(at 104.14 73.66)
-		(uuid "2fa43c23-ace3-4bc7-8862-769b6e1a09ea")
-	)
-	(no_connect
 		(at 173.99 35.56)
 		(uuid "3c8ed12c-95fc-411f-9a7f-38facfa0035b")
 	)
@@ -6714,7 +6718,7 @@
 	)
 	(no_connect
 		(at 104.14 78.74)
-		(uuid "756ccbbe-a7e5-472a-ad26-f99eb5b628f7")
+		(uuid "73d7b605-9bea-4d6d-92a4-87823c49ebaf")
 	)
 	(no_connect
 		(at 63.5 78.74)
@@ -6723,10 +6727,6 @@
 	(no_connect
 		(at 173.99 43.18)
 		(uuid "842a58a9-67e5-4e09-bea8-7eb68e2e7d1f")
-	)
-	(no_connect
-		(at 104.14 60.96)
-		(uuid "84ac02b3-1154-4af4-96cc-a20e030b1265")
 	)
 	(no_connect
 		(at 104.14 96.52)
@@ -6759,10 +6759,6 @@
 	(no_connect
 		(at 173.99 45.72)
 		(uuid "bfbea131-c602-4466-8204-26aa3a9bfa43")
-	)
-	(no_connect
-		(at 104.14 76.2)
-		(uuid "bfd715dd-91a6-49eb-b10d-8ef92aa55b3b")
 	)
 	(no_connect
 		(at 63.5 76.2)
@@ -6815,6 +6811,16 @@
 			(type default)
 		)
 		(uuid "05d939a4-5ad5-4534-a503-8a2b45273ad9")
+	)
+	(wire
+		(pts
+			(xy 104.14 76.2) (xy 110.49 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09809f8c-0d73-4d81-a5ee-743684af0f96")
 	)
 	(wire
 		(pts
@@ -6928,6 +6934,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 60.96) (xy 110.49 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15db4798-a2e1-4e35-a68f-a2474d9f480b")
+	)
+	(wire
+		(pts
 			(xy 104.14 111.76) (xy 109.22 111.76)
 		)
 		(stroke
@@ -6935,6 +6951,16 @@
 			(type default)
 		)
 		(uuid "16f59ddf-16c0-42af-9272-70846ff4ff35")
+	)
+	(wire
+		(pts
+			(xy 104.14 73.66) (xy 110.49 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1770b6e4-0e46-438b-b683-f035e1f7f1c2")
 	)
 	(wire
 		(pts
@@ -7245,6 +7271,16 @@
 			(type default)
 		)
 		(uuid "548eb897-ddde-413b-a581-9f945212dd64")
+	)
+	(wire
+		(pts
+			(xy 151.13 68.58) (xy 153.67 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d0e562-95e6-4143-9b42-9ce53295de15")
 	)
 	(wire
 		(pts
@@ -7618,6 +7654,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 68.58) (xy 143.51 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3e34ab-30bb-4172-a249-77d372aed626")
+	)
+	(wire
+		(pts
 			(xy 199.39 48.26) (xy 204.47 48.26)
 		)
 		(stroke
@@ -7718,6 +7764,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 68.58) (xy 158.75 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eadf3ae-be89-4a86-9c1e-42dec7cdae1a")
+	)
+	(wire
+		(pts
 			(xy 111.76 44.45) (xy 120.65 44.45)
 		)
 		(stroke
@@ -7755,6 +7811,16 @@
 			(type default)
 		)
 		(uuid "a370ecb0-3ba7-46f5-8b57-2db7cf529840")
+	)
+	(wire
+		(pts
+			(xy 104.14 58.42) (xy 110.49 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c6d67c-745b-4bf3-a58f-e987c566f04f")
 	)
 	(wire
 		(pts
@@ -7988,6 +8054,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 78.74) (xy 153.67 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c001f2d8-7d81-4015-abb8-40f083ff40fc")
+	)
+	(wire
+		(pts
 			(xy 21.59 36.83) (xy 30.48 36.83)
 		)
 		(stroke
@@ -8048,6 +8124,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 78.74) (xy 158.75 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d058db28-5c6a-41b8-bb6a-0d064c1d0431")
+	)
+	(wire
+		(pts
 			(xy 104.14 55.88) (xy 109.22 55.88)
 		)
 		(stroke
@@ -8055,6 +8141,16 @@
 			(type default)
 		)
 		(uuid "d075807b-8a94-4d52-b84d-b47dae992d89")
+	)
+	(wire
+		(pts
+			(xy 138.43 78.74) (xy 143.51 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66c77a0-682e-486e-9c1c-dd2dbde346b7")
 	)
 	(wire
 		(pts
@@ -9026,6 +9122,17 @@
 		)
 		(uuid "ff82ea8b-1bb0-4ba6-8416-dfa2d5d45a6d")
 	)
+	(hierarchical_label "I2C2_SDA"
+		(shape bidirectional)
+		(at 138.43 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "024960f7-b42d-4b52-b405-9f056f36dbac")
+	)
 	(hierarchical_label "SPI_CLK"
 		(shape output)
 		(at 115.57 71.12 0)
@@ -9037,7 +9144,7 @@
 		)
 		(uuid "4f13cf67-6ad2-46c2-a80e-81c43f68f7bc")
 	)
-	(hierarchical_label "I2C_SDA"
+	(hierarchical_label "I2C2_SDA"
 		(shape bidirectional)
 		(at 111.76 119.38 0)
 		(effects
@@ -9047,6 +9154,50 @@
 			(justify left)
 		)
 		(uuid "509f1b4f-7b1f-4d6d-9795-0379a6fead68")
+	)
+	(hierarchical_label "GPS_TX"
+		(shape input)
+		(at 110.49 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56129f25-ce3e-41e3-b779-a6256c11e439")
+	)
+	(hierarchical_label "CS_BMI150"
+		(shape input)
+		(at 110.49 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64d10527-ee36-43a9-a699-f432a47ca907")
+	)
+	(hierarchical_label "CS_LSM6DS3"
+		(shape input)
+		(at 110.49 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a0200e0-953c-4fe9-a760-4bb0968ddf13")
+	)
+	(hierarchical_label "I2C2_SCL"
+		(shape bidirectional)
+		(at 138.43 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81792278-d71a-4658-8298-2338d6ed5f67")
 	)
 	(hierarchical_label "SPI_MISO"
 		(shape input)
@@ -9059,7 +9210,7 @@
 		)
 		(uuid "9f273c0c-a98f-4371-ade0-52f7569767b8")
 	)
-	(hierarchical_label "I2C_SCL"
+	(hierarchical_label "I2C2_SCL"
 		(shape bidirectional)
 		(at 111.76 116.84 0)
 		(effects
@@ -9069,6 +9220,17 @@
 			(justify left)
 		)
 		(uuid "c230213d-fa5e-4096-8fa9-7d48d8d1b964")
+	)
+	(hierarchical_label "GPS_RX"
+		(shape input)
+		(at 110.49 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3d2c841-6b04-4080-ad80-452d5043ebc0")
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape output)
@@ -14202,6 +14364,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 147.32 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83523e61-2d23-4821-9e7c-5e9ce54a7c6a")
+		(property "Reference" "R10"
+			(at 147.32 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7 kΩ"
+			(at 147.32 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 80.518 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4be8ef87-a33b-4ce4-b099-f4db18d3a924")
+		)
+		(pin "2"
+			(uuid "3d1fc6ce-158d-49f3-b3e7-068c70a67872")
+		)
+		(instances
+			(project "DukeSatChip"
+				(path "/c9dca0a0-0655-45b8-af3d-da736a85b271/0dc59f70-6e74-4892-a502-b747b26099d8"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 34.29 39.37 270)
 		(unit 1)
@@ -16068,6 +16310,161 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 153.67 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b480fcd4-6691-4cef-944c-2cde65ecd7d0")
+		(property "Reference" "#FLG04"
+			(at 153.67 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 153.67 60.452 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 153.67 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30b20399-4377-4437-8b95-2e60b48e3265")
+		)
+		(instances
+			(project "DukeSatChip"
+				(path "/c9dca0a0-0655-45b8-af3d-da736a85b271/0dc59f70-6e74-4892-a502-b747b26099d8"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 158.75 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5ba1d44-8f62-47e2-b80d-c4bad3ead939")
+		(property "Reference" "#PWR050"
+			(at 158.75 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 158.75 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 158.75 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bb961f9-f466-4808-b133-83caa8d311f5")
+		)
+		(instances
+			(project "DukeSatChip"
+				(path "/c9dca0a0-0655-45b8-af3d-da736a85b271/0dc59f70-6e74-4892-a502-b747b26099d8"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 34.29 41.91 270)
 		(unit 1)
@@ -16149,6 +16546,86 @@
 			(project "DukeSatChip"
 				(path "/c9dca0a0-0655-45b8-af3d-da736a85b271/0dc59f70-6e74-4892-a502-b747b26099d8"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b81ace17-8096-43b8-a9d9-8307360ca54f")
+		(property "Reference" "R9"
+			(at 147.32 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7 kΩ"
+			(at 147.32 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 70.358 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9bd0c7f-5d25-4ab9-aa45-efb4be434027")
+		)
+		(pin "2"
+			(uuid "dbcbe85f-0651-4330-82d2-dd7d4d506eef")
+		)
+		(instances
+			(project "DukeSatChip"
+				(path "/c9dca0a0-0655-45b8-af3d-da736a85b271/0dc59f70-6e74-4892-a502-b747b26099d8"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -16827,6 +17304,84 @@
 			(project "DukeSatChip"
 				(path "/c9dca0a0-0655-45b8-af3d-da736a85b271/0dc59f70-6e74-4892-a502-b747b26099d8"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 158.75 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2fddbed-08f2-4660-86ab-44fd4aab56d0")
+		(property "Reference" "#PWR051"
+			(at 158.75 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 158.75 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 158.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a94dc0e-1af5-472b-a103-be7374e467fd")
+		)
+		(instances
+			(project "DukeSatChip"
+				(path "/c9dca0a0-0655-45b8-af3d-da736a85b271/0dc59f70-6e74-4892-a502-b747b26099d8"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -18081,6 +18636,83 @@
 			(project "DukeSatChip"
 				(path "/c9dca0a0-0655-45b8-af3d-da736a85b271/0dc59f70-6e74-4892-a502-b747b26099d8"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 153.67 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "efbca7a8-a2d9-45fc-be5b-fd7936875a5e")
+		(property "Reference" "#FLG05"
+			(at 153.67 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 154.178 71.374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 153.67 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09e0ea7a-e1a7-49e1-a9a8-167c850804a8")
+		)
+		(instances
+			(project "DukeSatChip"
+				(path "/c9dca0a0-0655-45b8-af3d-da736a85b271/0dc59f70-6e74-4892-a502-b747b26099d8"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)

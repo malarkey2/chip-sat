@@ -1841,6 +1841,12 @@
 		(uuid "6c77886c-0229-4aa1-80a8-a8319d38fc03")
 	)
 	(junction
+		(at 175.26 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c65288b-b130-4783-a180-2cd3f78e2be9")
+	)
+	(junction
 		(at 67.31 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1851,6 +1857,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b85992b1-27ab-44da-8afa-b997a528b127")
+	)
+	(junction
+		(at 175.26 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df895629-c1d6-456b-91cc-e31e0cad9423")
 	)
 	(junction
 		(at 48.26 66.04)
@@ -1886,6 +1898,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 81.28) (xy 195.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc849f5-2cbb-44eb-b322-abcf46c2b052")
+	)
+	(wire
+		(pts
+			(xy 175.26 91.44) (xy 195.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169ba3d6-0c93-4d6b-b56f-ac5a1b82b827")
+	)
+	(wire
+		(pts
 			(xy 67.31 55.88) (xy 67.31 53.34)
 		)
 		(stroke
@@ -1903,6 +1935,26 @@
 			(type default)
 		)
 		(uuid "248a2976-9f80-4614-801f-35db851d1775")
+	)
+	(wire
+		(pts
+			(xy 175.26 93.98) (xy 195.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278be09d-6ef6-44c4-9757-5cd98e98ded1")
+	)
+	(wire
+		(pts
+			(xy 175.26 78.74) (xy 175.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec8d794-72b1-43a6-abb5-b3a9c482a612")
 	)
 	(wire
 		(pts
@@ -1956,6 +2008,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 76.2) (xy 195.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cda50d0-6ac6-4171-9010-0bb5ef2afc14")
+	)
+	(wire
+		(pts
 			(xy 100.33 35.56) (xy 100.33 48.26)
 		)
 		(stroke
@@ -1966,7 +2028,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 87.63) (xy 195.58 87.63)
+			(xy 175.26 83.82) (xy 195.58 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1996,7 +2058,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 91.44) (xy 195.58 91.44)
+			(xy 175.26 86.36) (xy 195.58 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2146,6 +2208,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 78.74) (xy 195.58 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5337521-bc57-49da-bd49-7ce458d84ac9")
+	)
+	(wire
+		(pts
 			(xy 66.04 60.96) (xy 69.85 60.96)
 		)
 		(stroke
@@ -2173,6 +2245,16 @@
 			(type default)
 		)
 		(uuid "c8833e1a-7204-4af2-ba60-8e6bfd348a56")
+	)
+	(wire
+		(pts
+			(xy 175.26 88.9) (xy 195.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47111af-ce2b-43d0-8973-eaaa0470605a")
 	)
 	(wire
 		(pts
@@ -4165,16 +4247,6 @@
 				(justify left)
 			)
 		)
-		(pin "SPI_MISO" input
-			(at 195.58 78.74 180)
-			(uuid "39e505b0-beb0-4f14-9ed6-539420ca92d4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SPI_MOSI" output
 			(at 195.58 81.28 180)
 			(uuid "74e58fd8-418b-44e3-adee-b97958937b78")
@@ -4185,8 +4257,8 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_SCL" bidirectional
-			(at 195.58 87.63 180)
+		(pin "I2C2_SCL" bidirectional
+			(at 195.58 83.82 180)
 			(uuid "a3cbe1f2-841b-4f9b-ba9b-bddff1a47143")
 			(effects
 				(font
@@ -4195,9 +4267,59 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_SDA" bidirectional
-			(at 195.58 91.44 180)
+		(pin "I2C2_SDA" bidirectional
+			(at 195.58 86.36 180)
 			(uuid "ba2a9010-295b-4fae-9175-d52317a4cc83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_RX" input
+			(at 195.58 88.9 180)
+			(uuid "06d43d80-3796-42d8-bdb0-af6c295239ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_TX" input
+			(at 195.58 91.44 180)
+			(uuid "d0e22208-1b32-4654-8719-95d3c0c23227")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_MISO" input
+			(at 195.58 78.74 180)
+			(uuid "292e04d8-b43c-4146-9c5a-2e592577e5f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_BMI150" input
+			(at 195.58 93.98 180)
+			(uuid "6d17e889-b401-4e0b-acc3-91e9d25bb097")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_LSM6DS3" input
+			(at 195.58 76.2 180)
+			(uuid "b5ccdb1f-55b7-4bc4-b47f-e0486d5c68d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,8 +4383,8 @@
 				(justify right)
 			)
 		)
-		(pin "I2C_SCL" bidirectional
-			(at 175.26 87.63 0)
+		(pin "I2C2_SCL" input
+			(at 175.26 83.82 0)
 			(uuid "92ebc642-5661-401e-a52a-7e952dea11c5")
 			(effects
 				(font
@@ -4271,9 +4393,69 @@
 				(justify right)
 			)
 		)
-		(pin "I2C_SDA" bidirectional
-			(at 175.26 91.44 0)
+		(pin "I2C2_SDA" input
+			(at 175.26 86.36 0)
 			(uuid "e9e5d1ec-1d28-4d1f-bb91-47bccdb7b620")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS_BMI150" input
+			(at 175.26 93.98 0)
+			(uuid "bd1755f9-5cd6-4c87-9ff5-8e7484165f1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_RX" input
+			(at 175.26 88.9 0)
+			(uuid "0348dc9b-2bf7-499c-b61a-7a00c0d83d73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_TX" input
+			(at 175.26 91.44 0)
+			(uuid "22729404-df65-409c-a6af-62bf379d914c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MISO" input
+			(at 175.26 78.74 0)
+			(uuid "8bff4df6-9821-4f36-85f3-5eb63a9d670d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 175.26 81.28 0)
+			(uuid "595a136a-bc7d-4256-9b64-a8b4181fdb7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS_LSM6DS3" input
+			(at 175.26 76.2 0)
+			(uuid "44917dcd-0100-41c2-b67f-f7fe7c3f7f10")
 			(effects
 				(font
 					(size 1.27 1.27)
