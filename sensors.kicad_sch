@@ -2358,6 +2358,10 @@
 		(color 0 0 0 0)
 		(uuid "d8c51721-accc-4fbc-ac3f-69e34a46003d")
 	)
+	(no_connect
+		(at 236.22 81.28)
+		(uuid "5f3fedb4-7dc4-42c8-8e43-18db43ecfe2b")
+	)
 	(wire
 		(pts
 			(xy 104.14 90.17) (xy 104.14 92.71)
@@ -3136,6 +3140,17 @@
 			(justify right)
 		)
 		(uuid "c2da4616-a66b-4c5c-9b79-89dbce4b08f6")
+	)
+	(hierarchical_label "IMU_INT1"
+		(shape output)
+		(at 236.22 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8a42f53-2f77-45d6-ba8f-2efb9edc109e")
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape input)
