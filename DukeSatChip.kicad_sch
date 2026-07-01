@@ -2593,6 +2593,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 100.33) (xy 190.5 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3998c3-4f6f-4a98-a81c-b091276ec1a0")
+	)
+	(wire
+		(pts
 			(xy 96.52 50.8) (xy 104.14 50.8)
 		)
 		(stroke
@@ -2733,6 +2743,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 106.68) (xy 190.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b98ffc2-ae6c-4aa3-bb5a-87c49e1a70d2")
+	)
+	(wire
+		(pts
 			(xy 167.64 83.82) (xy 190.5 83.82)
 		)
 		(stroke
@@ -2740,6 +2760,16 @@
 			(type default)
 		)
 		(uuid "7127200e-3713-4143-a1e6-ca0bbc117d4b")
+	)
+	(wire
+		(pts
+			(xy 167.64 104.14) (xy 190.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ec4108-eeb2-4629-8e27-0f47cbc282e2")
 	)
 	(wire
 		(pts
@@ -2760,6 +2790,16 @@
 			(type default)
 		)
 		(uuid "7684a9ea-1486-43b4-90e6-fe601bafbaa2")
+	)
+	(wire
+		(pts
+			(xy 167.64 97.79) (xy 190.5 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d1db00-6931-4004-8e69-09e822f5b7ca")
 	)
 	(wire
 		(pts
@@ -2850,6 +2890,16 @@
 			(type default)
 		)
 		(uuid "9c7e96a6-a0ea-43ad-86fa-b6dcf29953b7")
+	)
+	(wire
+		(pts
+			(xy 167.64 110.49) (xy 190.5 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd5e61d-e2e4-41da-bdda-b31b90e7ecd2")
 	)
 	(wire
 		(pts
@@ -3120,6 +3170,16 @@
 			(type default)
 		)
 		(uuid "fc8a4fa7-d767-4328-ad69-d375d4c947cb")
+	)
+	(wire
+		(pts
+			(xy 167.64 113.03) (xy 190.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fecab59a-5c13-4ef8-b9f4-4527f603926d")
 	)
 	(image
 		(at 397.51 260.35)
@@ -6015,7 +6075,7 @@
 	)
 	(sheet
 		(at 190.5 70.358)
-		(size 34.036 25.654)
+		(size 34.036 49.657)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6041,7 +6101,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU_comms_actuation.kicad_sch"
-			(at 190.5 96.5966 0)
+			(at 190.5 120.5996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6151,14 +6211,74 @@
 				(justify left)
 			)
 		)
-		(pin "LOAD_SW_nEN" output
+		(pin "LOAD_SW" output
 			(at 224.536 92.71 0)
-			(uuid "56a56b80-8bf1-4118-b88e-d0c05f980d8b")
+			(uuid "5f771c2b-4c45-4bdc-aa79-9b887c0ba923")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "SUN_XN_ADC" input
+			(at 190.5 97.79 180)
+			(uuid "8525f7ce-0e83-4213-91b1-b468a538af9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SUN_XP_ADC" input
+			(at 190.5 100.33 180)
+			(uuid "52877296-c244-4e0f-9b44-ce82ae196da7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SUN_YN_ADC" input
+			(at 190.5 104.14 180)
+			(uuid "b25a7d71-0808-47a9-88e8-4a690da387d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SUN_YP_ADC" input
+			(at 190.5 106.68 180)
+			(uuid "b0a71120-5f65-4952-96aa-657d0c80e554")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SUN_ZN_ADC" input
+			(at 190.5 110.49 180)
+			(uuid "e500229e-32ec-462d-af28-34580b66836e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SUN_ZP_ADC" input
+			(at 190.5 113.03 180)
+			(uuid "31cb21fe-c82e-4875-b5b8-fdeda0504ff7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -6171,7 +6291,7 @@
 	)
 	(sheet
 		(at 133.096 68.326)
-		(size 34.544 29.464)
+		(size 34.544 52.324)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6197,7 +6317,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 133.096 98.3746 0)
+			(at 133.096 121.2346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6300,6 +6420,66 @@
 		(pin "IMU_INT1" output
 			(at 167.64 71.12 0)
 			(uuid "1d8baaf4-5fbc-4b68-aec6-8104c2814e8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SUN_XN_ADC" output
+			(at 167.64 97.79 0)
+			(uuid "d5975389-e294-429f-812a-97551fe4e909")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SUN_XP_ADC" output
+			(at 167.64 100.33 0)
+			(uuid "5c31b8c5-1153-4849-885a-ec43aa235df3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SUN_YN_ADC" output
+			(at 167.64 104.14 0)
+			(uuid "146598ff-740b-4c0e-a544-2b07237c16ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SUN_YP_ADC" output
+			(at 167.64 106.68 0)
+			(uuid "9ebacbb0-3be6-445c-b524-4156d6bf9f5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SUN_ZN_ADC" output
+			(at 167.64 110.49 0)
+			(uuid "96dc4fb1-f23b-47f5-8a36-297059a2475a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SUN_ZP_ADC" output
+			(at 167.64 113.03 0)
+			(uuid "29042f33-640c-48c0-ad34-1825906f4846")
 			(effects
 				(font
 					(size 1.27 1.27)
