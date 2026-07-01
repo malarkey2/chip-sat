@@ -3113,7 +3113,18 @@
 		)
 		(uuid "08935697-5de0-4c8c-a792-fd022e043826")
 	)
-	(hierarchical_label "SUN_ZN_ADC"
+	(hierarchical_label "SUN_YP_ADC"
+		(shape output)
+		(at 205.74 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19fea059-b316-433a-838f-d666f18e35a5")
+	)
+	(hierarchical_label "SUN_ZP_ADC"
 		(shape output)
 		(at 205.74 124.46 0)
 		(effects
@@ -3122,7 +3133,7 @@
 			)
 			(justify left)
 		)
-		(uuid "1ba42861-0724-410a-a7dc-4670de4f3be7")
+		(uuid "2aca4668-c585-41a5-849d-187ecd25f8bc")
 	)
 	(hierarchical_label "I2C2_SCL"
 		(shape input)
@@ -3168,17 +3179,6 @@
 		)
 		(uuid "4654525e-f1e2-471c-8e29-be14896da7ee")
 	)
-	(hierarchical_label "SUN_YP_ADC"
-		(shape output)
-		(at 205.74 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52796b81-05ad-46d9-a6d9-bcc36482734f")
-	)
 	(hierarchical_label "SPI_CLK"
 		(shape input)
 		(at 39.37 85.09 0)
@@ -3189,17 +3189,6 @@
 			(justify left)
 		)
 		(uuid "536c8bdd-cb1f-4968-9d84-226dfb0975ac")
-	)
-	(hierarchical_label "SUN_ZP_ADC"
-		(shape output)
-		(at 205.74 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5968da69-5cf7-49d5-ac67-bdf3571bc028")
 	)
 	(hierarchical_label "GPS_TX"
 		(shape input)
@@ -3212,6 +3201,17 @@
 		)
 		(uuid "78c915f7-5131-471d-adea-087e92e98cf6")
 	)
+	(hierarchical_label "SUN_YN_ADC"
+		(shape output)
+		(at 205.74 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bd6ad80-a3ce-4024-91ca-1a95ab699384")
+	)
 	(hierarchical_label "SPI_MISO"
 		(shape input)
 		(at 85.09 100.33 180)
@@ -3222,28 +3222,6 @@
 			(justify right)
 		)
 		(uuid "7ca637ba-5377-4fd2-bbe7-76ab2019bd0f")
-	)
-	(hierarchical_label "SUN_XN_ADC"
-		(shape output)
-		(at 205.74 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8e311e6a-2c9e-4e14-8466-a09f16ee9b3b")
-	)
-	(hierarchical_label "SUN_YN_ADC"
-		(shape output)
-		(at 205.74 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c24f3579-ac4e-4ce3-a1f4-cd34d7e0a81c")
 	)
 	(hierarchical_label "SPI_MISO"
 		(shape input)
@@ -3256,6 +3234,39 @@
 		)
 		(uuid "c2da4616-a66b-4c5c-9b79-89dbce4b08f6")
 	)
+	(hierarchical_label "SUN_XP_ADC"
+		(shape output)
+		(at 205.74 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4e4ec6d-84d1-463d-be94-a9ef9a7945b0")
+	)
+	(hierarchical_label "SUN_XN_ADC"
+		(shape output)
+		(at 205.74 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbb979a8-60b2-4287-8b0b-12f6fffa87bb")
+	)
+	(hierarchical_label "SUN_ZN_ADC"
+		(shape output)
+		(at 205.74 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7fc2cdd-7419-435e-a099-3a4d6a7948c8")
+	)
 	(hierarchical_label "IMU_INT1"
 		(shape output)
 		(at 215.9 44.45 0)
@@ -3266,17 +3277,6 @@
 			(justify left)
 		)
 		(uuid "d8a42f53-2f77-45d6-ba8f-2efb9edc109e")
-	)
-	(hierarchical_label "SUN_XP_ADC"
-		(shape output)
-		(at 205.74 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "db8fce1b-f256-428a-af82-b5f08e8b12d0")
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape input)

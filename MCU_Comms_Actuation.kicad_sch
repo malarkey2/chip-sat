@@ -7108,7 +7108,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 140.97) (xy 87.63 140.97)
+			(xy 78.74 140.97) (xy 87.63 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7288,7 +7288,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 138.43) (xy 87.63 138.43)
+			(xy 78.74 138.43) (xy 87.63 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7318,7 +7318,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 162.56) (xy 85.09 162.56)
+			(xy 78.74 162.56) (xy 85.09 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7408,7 +7408,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 143.51) (xy 87.63 143.51)
+			(xy 78.74 143.51) (xy 87.63 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7988,7 +7988,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 165.1) (xy 85.09 165.1)
+			(xy 78.74 165.1) (xy 85.09 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8158,7 +8158,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 146.05) (xy 87.63 146.05)
+			(xy 78.74 146.05) (xy 87.63 146.05)
 		)
 		(stroke
 			(width 0)
@@ -9388,7 +9388,7 @@
 	)
 	(hierarchical_label "SUN_XP_ADC"
 		(shape input)
-		(at 82.55 138.43 180)
+		(at 78.74 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9410,7 +9410,7 @@
 	)
 	(hierarchical_label "SUN_YP_ADC"
 		(shape input)
-		(at 82.55 143.51 180)
+		(at 78.74 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9421,7 +9421,7 @@
 	)
 	(hierarchical_label "SUN_XN_ADC"
 		(shape input)
-		(at 82.55 140.97 180)
+		(at 78.74 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9454,7 +9454,7 @@
 	)
 	(hierarchical_label "SUN_YN_ADC"
 		(shape input)
-		(at 82.55 146.05 180)
+		(at 78.74 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9498,7 +9498,7 @@
 	)
 	(hierarchical_label "SUN_ZN_ADC"
 		(shape input)
-		(at 82.55 165.1 180)
+		(at 78.74 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9509,7 +9509,7 @@
 	)
 	(hierarchical_label "SUN_ZP_ADC"
 		(shape input)
-		(at 82.55 162.56 180)
+		(at 78.74 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10640,6 +10640,12 @@
 		(instances
 			(project "MCU_Comms_Actuation"
 				(path "/951c21f5-e3a2-4971-b4ad-b39d9271a0ce"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+			(project "DukeSatChip"
+				(path "/c9dca0a0-0655-45b8-af3d-da736a85b271/0dc59f70-6e74-4892-a502-b747b26099d8"
 					(reference "#PWR052")
 					(unit 1)
 				)
@@ -13115,7 +13121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ec6de6a-89f5-4aea-a3e8-381ad53a4ee7")
-		(property "Reference" "FRAM1"
+		(property "Reference" "FRAM"
 			(at 351.79 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13758,7 +13764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b5e15f3-f70b-404a-8a8a-bb16e98aea30")
-		(property "Reference" "Microprocessor1"
+		(property "Reference" "Microprocessor"
 			(at 112.6333 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17560,6 +17566,12 @@
 					(unit 1)
 				)
 			)
+			(project "DukeSatChip"
+				(path "/c9dca0a0-0655-45b8-af3d-da736a85b271/0dc59f70-6e74-4892-a502-b747b26099d8"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18336,6 +18348,12 @@
 					(unit 1)
 				)
 			)
+			(project "DukeSatChip"
+				(path "/c9dca0a0-0655-45b8-af3d-da736a85b271/0dc59f70-6e74-4892-a502-b747b26099d8"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18606,7 +18624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d420e8d3-fb74-4023-b616-2aa6f9109a81")
-		(property "Reference" "LoRaRadio1"
+		(property "Reference" "LoRaRadio"
 			(at 248.2281 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19480,6 +19498,12 @@
 					(unit 1)
 				)
 			)
+			(project "DukeSatChip"
+				(path "/c9dca0a0-0655-45b8-af3d-da736a85b271/0dc59f70-6e74-4892-a502-b747b26099d8"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20247,5 +20271,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
